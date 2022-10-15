@@ -50,6 +50,7 @@ Built and tested using IntelliJ IDEA.
 ## Acknowledgements
 
 - Professor Virgil Pavlu, my Algorithms professor.
+- *Introduction to Algorithms* (CLRS) by Cormen, Leiserson, Rivest, and Stein, the quintessential graduate-level algorithms textbook which has pushed me to be a better computer science student. 
 - The University of British Columbia, Okanagan Campus, for their fantastic Skip List visualization tool that I linked in my section on Skip Lists above.  
 
 ## Contact Information
