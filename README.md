@@ -8,7 +8,7 @@ The purpose of this project is not just to break down the exact mechanisms by wh
 For example, the fact that Fibonacci Heaps are able to reduce their order of time-complexity when ???? by lazily defering clean-up until the next `Extract Min` operation helps us understand that (Binomial Heaps???).
 
 
-
+Please note that, given the eductional purpose of this project, some Java best practices like using `private` access modifiers in conjunction with "getter" and "setter" methods are disregarded.
 
 Concepts covered in this project include (but are not limited to) ?????>. 
 
