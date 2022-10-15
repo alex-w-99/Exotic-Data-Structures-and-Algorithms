@@ -17,6 +17,7 @@ Built and tested using IntelliJ IDEA.
 ## The Data Structures
 - <ins>Skip Lists:</ins> ???
   - ???
+  - For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html). 
 - <ins>Red-Black Trees:</ins> ???
   - ???
 - <ins>Binomial Heaps:</ins> ???
@@ -41,6 +42,7 @@ Built and tested using IntelliJ IDEA.
 ## Acknowledgements
 
 - Professor Virgil Pavlu, my Algorithms professor.
+- The University of British Columbia, Okanagan Campus, for their fantastic Skip List visualization tool that I linked in my section on Skip Lists above.  
 
 ## Contact Information
 - Alexander Wilcox
