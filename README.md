@@ -20,8 +20,12 @@ Built and tested using IntelliJ IDEA.
   - **Disadvantages:** Skip Lists suffer from two major problems: (1) Skip Lists are essentially keeping track of many linked lists at once, which negatively impacts its space-complexity (indeed, its worst-case space-complexity is O(n log n), which highlights this fact), and (2) Skip Lists have a deletion function which can be quite tricky to implement. 
   - **Visualization**: Please find an example immediately below. For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html "UBC Skip List Visualization").
     <img src="https://github.com/alex-w-99/Exotic-Data-Structures-and-Algorithms/blob/main/Images/SkipLists.png" width="500">
+    
 - <ins>Red-Black Trees:</ins> ???
   - ???
+  <p align="center">
+    <img src="https://github.com/alex-w-99/Exotic-Data-Structures-and-Algorithms/blob/main/Images/SkipLists.png" width="500">
+  </p>
 
 - <ins>Binomial Heaps:</ins> ???
   - ???
