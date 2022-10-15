@@ -16,7 +16,10 @@ Built and tested using IntelliJ IDEA.
 
 ## The Data Structures
 - <ins>Skip Lists:</ins> ???
-  - ???
+  - **Context:** ???
+  - **Explanation:** ???
+  - **Advantages:** ???
+  - **Disadvantages:** ???
   - For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html "UBC Skip List Visualization"). 
 - <ins>Red-Black Trees:</ins> ???
   - ???
