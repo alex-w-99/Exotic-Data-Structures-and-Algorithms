@@ -15,7 +15,7 @@ Concepts covered in this project include (but are not limited to) ?????>.
 Built and tested using IntelliJ IDEA. 
 
 ## The Data Structures
-- <ins>Skip Lists:</ins> ???
+- <ins>Skip Lists:</ins> ???     . Skip List are therefore an alternative to balanced binary trees.
   - **Context:** ???
   - **Explanation:** ???
   - **Advantages:** ???
