@@ -19,7 +19,7 @@ Built and tested using IntelliJ IDEA.
   - **Context:** ???
   - **Explanation:** ???
   - **Advantages:** ???
-  - **Disadvantages:** ???
+  - **Disadvantages:** Skip Lists have two major problems: (1) Skip Lists have a worst-case space-complexity of O(n log n), which highlights the fact that this data structure is actually keeping track of many linked lists, and (2) Skip Lists have a deletion function which can be quite tricky to implement. 
   - For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html "UBC Skip List Visualization"). 
 - <ins>Red-Black Trees:</ins> ???
   - ???
