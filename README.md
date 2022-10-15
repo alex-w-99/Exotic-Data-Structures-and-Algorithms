@@ -14,10 +14,12 @@ Concepts covered in this project include (but are not limited to) ?????>.
 
 Built and tested using IntelliJ IDEA. 
 
+<a href="[http://...](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html)" target="_blank">external link</a>
+
 ## The Data Structures
 - <ins>Skip Lists:</ins> ???
   - ???
-  - For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html). 
+  - For a fantastic visualization of how Skip Lists are built, please [click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html "UBC Skip List Visualization"). 
 - <ins>Red-Black Trees:</ins> ???
   - ???
 - <ins>Binomial Heaps:</ins> ???
