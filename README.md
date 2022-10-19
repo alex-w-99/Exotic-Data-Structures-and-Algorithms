@@ -1,4 +1,4 @@
-# Exotic Data Structures and Algorithms
+# Pedagogic Data Structures and Algorithms
 
 A collection of some of my favorite rare and efficient data structures and algorithms written in Java.
 
@@ -20,25 +20,28 @@ Built and tested using IntelliJ IDEA.
   - **Disadvantages:** Skip Lists suffer from two major problems: (1) Skip Lists are essentially keeping track of many linked lists at once, which negatively impacts its space-complexity (indeed, its worst-case space-complexity is O(*n log n*), which highlights this fact), and (2) Skip Lists have a deletion function which can be quite tricky to implement. 
   - **Visualization**: Please find an example of a Skip List immediately below. For a fantastic animation of how Skip Lists are built and used, [please click here](https://cmps-people.ok.ubc.ca/ylucet/DS/SkipList.html "UBC Skip List Visualization").
   <p align="center">
-    <img src="https://github.com/alex-w-99/Exotic-Data-Structures-and-Algorithms/blob/main/Images/SkipLists.png" width="500">
+    <img src="https://github.com/alex-w-99/Pedagogic-Data-Structures-and-Algorithms/blob/main/Images/SkipLists.png" width="500">
   </p>
 
 - <ins>Red-Black Trees:</ins> ???
   - ???
 
-- <ins>Binomial Heaps:</ins> A Binomial Heap is a type of mergable heap that acts as a priority queue; Binomial Heaps contain a collection of binomial trees linked at their roots, such that the roots form a linked list. Importantly, a Binomial Heap can only have 0 or 1 Binomial Tree of a given order. To that end, when calling `EXTRACT-MIN` on a Binomial Heap, the "orphaned" children of the obviated node are reversed in order (so to be in increasing order of order), placed in the linked list of binomial tree roots, and then `UNION` is continuously called until the Binomial Heap has no more than 1 Binomial Tree of a given order. 
+- <ins>Binomial Heaps:</ins> A binomial heap is a type of mergable heap that acts as a priority queue; binomial heap contain a collection of binomial trees linked at their roots, such that the roots form a linked list. Importantly, a binomial heap can only have 0 or 1 binomial tree of a given order. To that end, when calling `EXTRACT-MIN` on a binomial heap, the "orphaned" children of the obviated node are reversed in order (so to be in increasing order of order), placed in the linked list of binomial tree roots, and then `UNION` is continuously called until the binomial heap has no more than 1 binomial tree of a given order. Binomial heaps are so named because the number of nodes at a given depth correspond to elements of Pascal's Triangle.
   - **Review of Related Terms/Concepts:**
-    - Mergable Heap: A data structure containing several min- or max-heaps which themselves may be merged with one another.
-    - Binomial Tree: An ordered tree that is defined recursively; the Binomial Tree *B*<sub>*0*</sub> consists of a single node, and the Binomial Tree *B*<sub>*k*</sub> consists of two binomial trees *B*<sub>*k-1*</sub> that are linked together so that the root of one is the leftmost child of the root of the other. Binomial Trees exhibit several interesting properties; for instance, a Binomial Tree of order *k* will have height *k* and 2<sup>*k*</sup> total nodes. 
-  - **Advantages:** ?
-  - **Disadvantages:** ?
-  - **Visualization**: Please find the generic Binomial Heap immediately below, comprised of Binomial Trees *B*<sub>*0*</sub> through *B*<sub>*4*</sub>.
+    - Mergable Heap: A data structure containing several min- or max-heaps which themselves may be merged with one another via a `UNION` operation.
+    - Binomial Tree: An ordered tree that is defined recursively; the binomial tree *B*<sub>*0*</sub> consists of a single node, and the binomial tree *B*<sub>*k*</sub> consists of two binomial trees *B*<sub>*k-1*</sub> that are linked together so that the root of one is the leftmost child of the root of the other. Binomial trees exhibit several interesting properties; for instance, a binomial tree of order *k* will have height *k* and 2<sup>*k*</sup> total nodes. 
+  - **Advantages:** The `UNION` operation in a binomial heap runs in *log n* time, whereas `UNION` runs in linear time in a binary heap.
+  - **Disadvantages:** The [amortized costs](https://en.wikipedia.org/wiki/Amortized_analysis "Amortized Analysis (Wikipedia)") associated with the `INSERT`, `DECREASE-KEY`, `UNION`, `FIND-MIN` operations are *log n* time in a binomial heap, whereas these operations run in constant time in a Fibonacci heap (see below).
+  - **Visualization**: Please find the generic binomial heap immediately below, comprised of binomial trees *B*<sub>*0*</sub> through *B*<sub>*4*</sub>.
   <p align="center">
-    <img src="https://github.com/alex-w-99/Exotic-Data-Structures-and-Algorithms/blob/main/Images/BinomialHeap.png" width="500">
+    <img src="https://github.com/alex-w-99/Pedagogic-Data-Structures-and-Algorithms/blob/main/Images/BinomialHeap.png" width="500">
   </p>
 
 - <ins>Fibonacci Heaps:</ins> ???
   - ???
+  - **Advantages**: ?
+  - **Disadvantages**: ?
+  - **Visualization**: ?
 
 ## The Algorithms
 - <ins>Quick Select:</ins> ???
@@ -57,6 +60,7 @@ Built and tested using IntelliJ IDEA.
 ## Acknowledgements
 
 - Professor Virgil Pavlu, my Algorithms professor.
+- *Introduction to Algorithms* (CLRS) by Cormen, Leiserson, Rivest, and Stein, for providing me with the quintessential graduate algorithms textbook that cost me so many hours of lost sleep.
 - The University of British Columbia, Okanagan Campus, for their fantastic Skip List visualization tool that I linked in my section on Skip Lists above.  
 
 ## Contact Information
