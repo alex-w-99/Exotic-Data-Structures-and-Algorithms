@@ -51,16 +51,18 @@ Built and tested using IntelliJ IDEA.
 
 - <ins>Fibonacci Heaps:</ins> ???
   - ???
-  - **Advantages**: ?
-  - **Disadvantages**: ?
-  - **Visualization**: ?
+  - **Advantages**: ???
+  - **Disadvantages**: ???
+  - **Visualization**: ???
 
 ## The Algorithms
-- <ins>Quick Select:</ins> ???
-  - ???
-  - **Advantages**: ?
-  - **Disadvantages**: ?
-  - **Visualization**: ?
+- <ins>Modified Quick Select:</ins> ???
+  - **Review of Related Terms/Concepts:**
+    - **Partition**: ???
+    - **Quick Select**: ???
+  - **Advantages**: ???
+  - **Disadvantages**: ???
+  - **Visualization**: ???
 
 - <ins>Push-Relabel Algorithm:</ins> Given a flow network *G = (V,E)*, a source *s*, and a sink *t*, the push-relabel algorithm finds the max flow. Unlike the Ford-Fulkerson algorithm (see below), push-relabel works one vertex at a time, only considering the vertex's neighbors in the residual network, and push-relabel does not maintain the flow-conservation property throughout execution (i.e., nodes here can have capacity during execution). The basic intuition is, coming from the Ford-Fulkerson algorithm, directed edges still correspond to "pipes"; vertices, however, have two new properties: (1) each vertex has an arbitrarily large reservoir that can accumulate excess, and (2) each vertex sits on a platform whose height increases as the algorithm progresses. Vertex heights determine how flow may be pushed (flow can only be pushed downhill). Moreover, the source *s* is fixed at height *V*, and sink *t* is fixed at height 0; all other vertices start at height 0 and may increase over time.
   - **Push-Relabel Order of Operations**: (1) The algorithm sends flow from vertex *s* to vertices directly connected to it by filling each outgoing pipe to capacity; i.e., saturates across the cut (*s*, *V*&#92;{*s*}). When this first flow enters the immediate vertices of source *s*, it is stored in their reservoirs (before eventually being pushed downhill). (2) At some point, we will find that the only pipes that leave a vertex *u* and are not already saturated connect to vertices with heights equal to/less than *h(u)*. To rid vertex *u* of its excess flow, we `RELABEL(u)`, increasing *h(u)* to be 1 greater than the height of vertex *u*'s lowest neighbor to which *u* has an unsaturated pipe connection. (3) Eventually, all the flow that can possibly get through to sink *t* has arrived there, constrained by pipe capacities (the amount of flow across any cut is still limited by its capacity). To make the pre-flow saturation "legal", the excess collected in the reservoirs of overflowing vertices is sent back to *s* by continuously relabeling all overflowed vertices to above *h(s) = V*. Once we have emptied these reservoirs, we have a legal, maximum flow.
@@ -76,8 +78,10 @@ Built and tested using IntelliJ IDEA.
   - **Disadvantages**: As is probably obvious at this point, the push-relabel algorithm can be extremely tedious to implement (at least in my experience coding it in Java). 
 
 ## Areas for Future Improvement
+- [ ] Make driver classes for all data structures and algorithms uniform (as it stands, some drivers require user input, others do not).
+- [ ] Create more formal unit tests in a test package using JUnit. 
 - [ ] Modify code such that it follows Java best practices (e.g., using `private` access modifiers with getter and setter functions, utilizing Java interfaces, etc.).
-- [ ] asdf
+- [ ] Add complete Javadocs to all classes, methods, etc. 
 
 ## Screenshots
 
