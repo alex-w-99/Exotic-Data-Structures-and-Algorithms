@@ -233,7 +233,7 @@ public class BinomialHeap {
   @Override
   public String toString() {
     if (this.head == null) {
-      return "Binomial Heap empty! No nodes to print.";
+      return "Binomial heap empty! No nodes to print.";
     }
     else {
       return this.head.toString();
