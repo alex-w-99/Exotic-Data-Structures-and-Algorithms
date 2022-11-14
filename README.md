@@ -1,4 +1,4 @@
-# Pedagogic Data Structures and Algorithms
+# Specialized Data Structures and Algorithms
 
 A collection of some of my favorite specialized, efficient data structures and algorithms written in Java. In addition to creating these programs, I also wanted to provide an in-depth background on the value that these data structures and algorithms have in a way that made intuitive sense to me. My hope is that the intuitive-based approach to these explanations that accompany this code can be of use to at least one person out there. More specifically, the purpose of this project is not just to break down the exact mechanisms by which these data structures and algorithms per se function, but also to provide a deeper context for the rationale behind and the tradeoffs associated with the all data structures and algorithms that underlie different aspects of the software we program, test, and use today.
 
