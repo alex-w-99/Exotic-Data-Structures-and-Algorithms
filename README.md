@@ -91,4 +91,4 @@ Built and tested in Java using IntelliJ IDEA.
 
 ## Contact Information
 - Alexander Wilcox
-- Email: alexander.w.wilcox@gmail.com
+- Email: alexander.w.wilcox [at] gmail.com
